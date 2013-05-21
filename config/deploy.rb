@@ -10,6 +10,8 @@ set :repository, "git@github.com:moosa-nasir/sample_app.git"
 set :scm_passphrase, ""
 
 
+set :deploy_via, :remote_cache
+
 set :user, "mango"
 set :application, 'sample_app'
 
