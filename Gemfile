@@ -8,6 +8,7 @@ gem 'rails', '3.2.11'
 
 gem 'mysql2', '0.2.7'
 gem 'rake', '0.9.2.2'
+gem 'therubyracer'
 
 
 # Gems used only for assets and not required
