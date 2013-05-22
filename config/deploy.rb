@@ -15,11 +15,20 @@ set :deploy_via, :remote_cache
 set :user, "mango"
 set :application, 'sample_app'
 
+#namespace :deploy do
+#  desc "Restart the Phusion Passenger."
+#  task :restart, :roles => :app do
+#    run "touch #{current_path}/tmp/restart.txt"
+#  end
+#end
 
-desc "Restart the Phusion Passenger."
-task :restart, :roles => :app do
-  sudo "touch #{current_path}/tmp/restart.txt"
+desc "Restart the app server"
+namespace :deploy do
+  task :restart do
+    run "touch #{current_path}/tmp/restart.txt"
+  end
 end
+
 
 
 
