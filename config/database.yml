@@ -4,29 +4,35 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-
   adapter: mysql2
-  database: sample_db
-  username: root
-  password: confiz
-  pool: 5
-  timeout: 5000
+  encoding: utf8
+  database: flava_db
+  username: mango
+  password: e3t_s1m0b0
+  host: localhost
+  reconnect: true
+  pool: 20
+
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-
   adapter: mysql2
-  database: sample_db
-  username: root
-  password: confiz
-  pool: 5
-  timeout: 5000
+  encoding: utf8
+  database: flava_db
+  username: mango
+  password: e3t_s1m0b0
+  host: localhost
+  reconnect: true
+  pool: 20
 
 production:
   adapter: mysql2
-  database: sample_db
-  username: root
-  password: confiz
-  pool: 5
-  timeout: 5000
+  encoding: utf8
+  database: flava_db
+  username: mango
+  password: e3t_s1m0b0
+  host: localhost
+  reconnect: true
+  pool: 20
+
