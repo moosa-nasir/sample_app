@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  nick: MyString
+  cell_no: MyString
+  password: MyString
+  active: 1
+
+two:
+  nick: MyString
+  cell_no: MyString
+  password: MyString
+  active: 1
