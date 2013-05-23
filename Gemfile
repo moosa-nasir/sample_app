@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'ruby-debug19', :require => 'ruby-debug'
 gem 'rails', '3.2.11'
 
 # Bundle edge Rails instead:
